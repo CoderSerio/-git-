@@ -49,7 +49,7 @@
 ### 生成并配置公钥
 
 ```shell
-ssh keygen
+ssh-keygen
 ```
 
 ## Git概述
