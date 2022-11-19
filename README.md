@@ -1,8 +1,3 @@
-# -git-
-> git教学专用
->
-> 目的是熟悉git基本操作， 随便怎么破坏都行，反正能回档
-
 # Git基础
 
 ## 简介
@@ -31,15 +26,15 @@
 > string str = '原始信息';
 > 
 > string md5 (string s) {
-> // ... 
-> // 一堆过程，核心思想是单向哈希，也就是不允许出现两个输入出现同一个输出并且不能由输出反推输入
-> return res; // 反正就是得到了一个128位的串， 即内容摘要
+>  // ... 
+>  // 一堆过程，核心思想是单向哈希，也就是不允许出现两个输入出现同一个输出并且不能由输出反推输入
+>  return res; // 反正就是得到了一个128位的串， 即内容摘要
 > }
 > 
 > string rsa (string secrectKey, string s) {
-> // ...
-> // 反正就是用私钥secrectKey加密一下s
-> return res; // 这里的结果就是 数字签名
+>  // ...
+>  // 反正就是用私钥secrectKey加密一下s
+>  return res; // 这里的结果就是 数字签名
 > }
 > 
 > string finalRes = rsa('某个私钥', md5(str));
@@ -78,7 +73,9 @@ ssh-keygen
 > **远程仓库remote repository**
 > github那里
 
-#### 常用命令
+#### 常用命令1
+
+
 
 > **git clone [仓库的HTTPS地址]**
 > 把整个仓库下载下来
